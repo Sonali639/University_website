@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="images/logo69.png"></a>
+            <div class="N-links" id="N-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="university.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="placements.html">PLACEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+    <!-------contact us------>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13778.423026693268!2d77.98759916773626!3d30.305283184178247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092a47c1e4f42d%3A0x5485f37cd783ee42!2sSeema%20Dwar%2C%20Dehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1635773741582!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contactus">
+        <div class="row">
+            <div class="contactcl">
+                <div>
+                    <i class="fa fa-phone" style="font-size:34px"></i>
+                    <span>
+                        <h6>639*****45</h6>
+                        <p>Call us for further Information</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-home" style="font-size: 34px;"></i>
+                    <span>
+                        <h6>ABC, Seemadwar</h6>
+                        <p>Dehradun, Uttrakhand</p>
+                    </span>
+                </div>
+                <div>
+                    <span class="material-icons" style="font-size: 34px;">email
+                    </span>
+
+                    <span>
+                        <h6>sonalisaluja12@gmail.com</h6>
+                        <p>mail us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contactcl">
+                <br><br><br><br><br>
+                <a href="bookus.html" class="btn1 btnC">Click here to register</a>
+                <!-- <form action="">
+                    <input type="text" name="" id="" placeholder="Enter your name">
+                    <input type="email" name="" id="" placeholder="Enter email address">
+                    <input type="text" name="" id="" placeholder="Enter your subject">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------footer------->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit rerum deserunt corrupti repellat
+            provident <br> cupiditate reiciendis soluta. Quo assumenda at alias ad.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Sonali Saluja</p>
+    </section>
+    <script>
+        var Nlinks = document.getElementById("N-links");
+        function showmenu(){
+            Nlinks.style.right = "0";
+        }
+        function hidemenu(){
+            Nlinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+
+</html>
