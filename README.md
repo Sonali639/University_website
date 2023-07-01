@@ -9,7 +9,7 @@ This is a sample website created using HTML, CSS. The website consists of multip
 ## Preview
 
 ### University Section
-![University Section](https://i.ibb.co/tqZ29pQ/university.png)
+![University Section](https://i.ibb.co/98mvH0h/home.png)
 
 ### About Section
 ![About Section](https://i.ibb.co/Pg08KdK/about.png)
